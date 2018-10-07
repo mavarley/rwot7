@@ -7,10 +7,10 @@ Matthew Wong
 
 ## Abstract
 
-This paper explores the possibilities and practicalities of leveraging a decentralized digital identity for helping at-risk,low-income, and individuals facing homelessness.
+This paper explores the possibilities and practicalities of leveraging a decentralized digital identity for helping at-risk, low-income, and individuals facing homelessness.
 
 Some points that will be covered:
-* Homeless can built their own web of trust with decentralized digital identity.
+* Homeless can built their own web of trust with decentralized digital identity [16].
 * Finanical inclusion for people without a reliable permanent address.
 * Reliable identity is essential for providing services to help these people.
 * Valuable services can be made available to this group because of a reliable identity.
@@ -40,6 +40,8 @@ Financial inclusion is widely recognized as one of the most important engines of
 
 In Canada, to open an account, you must present two pieces of identification. Alternatively, you may present only one piece of identification if your identity is confirmed by a client in good standing with the bank or by an individual of good standing in the community where the bank is located. However, without a reliable identification, keeping track of reputation or crendentials, is difficult.
 
+Although homeless shelters do not requires any identification; however due to age / gender restriction of some shelters, staff sometimes ask people come to their facility to provide proves. Verifiable crendentials can be used to provide information as needed (e.g. age), but nothing more.
+
 ### What are we aiming to do?
 The focus of this topic is how to apply existing decentralized digital ID solution to help individuals experiencing homelessness in the city (Toronto). E.g. how to reserve services such as overnight shelters with digital ID, keep track of certificate offered by free public organized re-training programs, and built credibility via repeat use the the same digital ID with varies services run by non-profit organizations in the city etc. The current digital ID solution is mature enough to tackle this issue, however how to properly design and deploy this solution in a city wide scale without major government backing is still challenging -- how to make a digital ID more than just a digital file and become a tool to built trust on for the individual experiencing homelessness. 
 
@@ -53,19 +55,17 @@ There are ID clinics across Canada that help homeless individuals re-apply to ge
 The problem that always occurs after is individuals losing it due to circumstance and then having to start all over again in the obtaining process.
 Emerging pilots to provide identity services for the homeless are emerging notable with two examples. New York with the Fummi app distributed on Android phones  and recently a ploit in Holland[8]. Other solutions are proposed to different vulnerable groups with similar identity needs, like refugees with solutions like Taqanu[9].
 
-
-
 ## Homeless does not means disconnected
 
 * homeless does not mean no access to a smartphone
 Based on [13], 95 percent of homeless surveyed owned a mobile phone, and it is increasingly important and served as a lifeline to them [13].
-* homeless does not mean you have no root of trust (DL, Bank account, ...)
+* homeless does not mean you have no root of trust (Drivers Licence, Bank account)
 
-* homeless does not mean they are alone, or isolated (but it is easy for them to feel this way)
+* homeless does not mean they are alone, or isolated (but it is easy for them to feel this way). Digital identification and verifiable credentials can be the fundamentals for them to build their social life and a verificable existence.
 
 ## Why a reliable Identity is valuable to this community
 
-* Social workers in this community learn who the people are.
+* Social workers and case managers in the community can learn who the people are based on a consitant and verifiable ID.
 * Making this identity claim 'portable' across the city/locality/region as people move about.
 * Services requiring identity exist for the homeless, including reserving overnight shelters, re-training / education programs, employment services
 
@@ -73,7 +73,7 @@ Based on [13], 95 percent of homeless surveyed owned a mobile phone, and it is i
 
 By its nature, the disposessed / homeless commnity is already decentralized. The value lies in empowering a member of this community to leverage an identity and community relationship when moving across regions, or being able to have an 'identity' when attempting to re-enter 'normal' society.
 
-The social workers working with homeless can provide in-person ID services and provide an 'on-boarding' for a reliable, portable ID, and the advent of a digital trust framework means the identity claims are immiately recognizable and useable across supporting agencies and services.
+The social workers and case managers working with homeless can provide in-person ID services and provide an 'on-boarding' for a reliable, portable ID, and the advent of a digital trust framework means the identity claims are immiately recognizable and useable across supporting agencies and services.
 
 Example use case: Joe takes advantage of a bed at a shelter. The intake shelter worker is able to provide Joe with a digital ID, that gives Joe a portable 'service ID'. When Joe decides to stay at a different shelter, he can use his serviceID. When Joe registers for a course, he can use his serviceID. when Joe completes the training/course, now Joe has a linked claim to his serviceID.
 
@@ -96,3 +96,5 @@ of Homelessness. Toronto: Canadian Observatory on Homelessness Press.
 [13] Cellphones can provide lifeline to homeless people https://www.cbc.ca/news/canada/nova-scotia/social-media-indigenous-women-safety-facebook-1.4032899
 [14] Homelessness in Canada – Why it’s time to listen, KPMG
 [15] Fair, A., Gosse, B., Moore, H. & Robson, J., Social and Enterprise Development Innovations (SEDI), 2008
+[16] 
+https://www.ibm.com/blogs/blockchain/2018/10/decentralized-identity-an-alternative-to-password-based-authentication/
