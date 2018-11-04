@@ -10,9 +10,8 @@ Matthew Wong
 This paper discuss how to make digital IDs more than just a digital file and become a tool to built trust on for the individual experiencing homelessness. Decentralized digital ID solution can help individuals experiencing homelessness to receive services in the city (Toronto) such as reserving an overnight shelters, tracking of certificates offered by free public organized re-training programs, and become finanically inclusive. With digital IDs, people facing homelesness can built credibility via repeat use the the same digital ID with varies services run by non-profit organizations in the city. Current digital ID solutions are mature enough to tackle this issue, however how to properly design and deploy this solution in a city wide scale without a centralized Vertifible Crendential (VC) Issuer or ID Provider (IDP) such as government is still challenging.
 
 Some points that will be covered in this paper:
-* Homeless does not mean 'disconnected'.
 * Reliable identity is still essential for providing services to the homeless.
-* Homeless can build their own web of trust with decentralized identity [16].
+* Homeless can build their own web of trust with decentralized identity.
 * Financial inclusion for people without a reliable permanent address.
 * Valuable services can be made available to this group because of a reliable identity.
 * We don't need 100% converage of affected people to have value.
@@ -45,42 +44,34 @@ Financial inclusion is widely recognized as one of the most important engines of
 
 In Canada, to open an account, you must present two pieces of identification[7][8]. Alternatively, you may present only one piece of identification if your identity is confirmed by a client in good standing with the bank or by an individual of good standing in the community where the bank is located. However, without a reliable identification, keeping track of reputation or crendentials, is difficult.
 
-Although homeless shelters do not requires any identification; however due to age / gender restriction of some shelters, staff sometimes ask people come to their facility to provide proves. Verifiable crendentials can be used to provide information as needed (e.g. age), but nothing more.
+Although homeless shelters do not requires any identification; however due to age / gender restriction of some shelters, staff sometimes ask people come to their facility to provide proves. Verifiable crendentials can be used to provide information as needed (e.g. age), but nothing more. 
 
-The solution to this problem is to use decentralized diginal ID systems (as known as Self-Sovereign Identity -- SSI) designed to empower users to establish their own credibility via the Web of Trust. 
+The solution to this problem is to use decentralized diginal ID systems (as known as Self-Sovereign Identity -- SSI) that empowers a member of this community to leverage an identity and community relationship when moving across regions, or being able to have an 'identity' when attempting to re-enter 'normal' society. The principles of SSI allow for privacy respecting exchanges as well - so Joe does not have to reveal that he stayed at any particular shelter, or can be tracked for the number of courses he registered for but did not complete.
+
 
 ### Why Self-Sovereign Identity and Decentralize or Web of Trust?
 
-Self-Sovereign Identity is a perfect decentralized solution for the problem above for a few reasons, one; blockchain will decrease the chances of fraud and stolen identities being used hence improve trust. Second, for individuals that actually don’t have physical proof for their ID this elevates the need to register and request for physical identification which can take up months. Third, this can give people more proactive control over their data and make it more difficult for unauthorized users to exploit it. Lastly losing physical ID’s is one of the most common problems amongst those that are experiencing homelessness, they often get their wallets, ID’s, entire luggage or bag stolen so they always have to start over. Having their identities on the blockchain will mean they won’t have to start over each time as long as they have their master key they will always be able to have their ID’s with them wherever they go regardless if they lose their belongings or not.
+Self-Sovereign Identity is the perfect decentralized solution, based on blockchain, for the problem above for a few reasons, one; blockchain will decrease the chances of fraud and stolen identities being used hence improve trust. Second, for individuals that actually don’t have physical proof for their ID this elevates the need to register and request for physical identification which can take up months. Third, this can give people more proactive control over their data and make it more difficult for unauthorized users to exploit it. Lastly losing physical ID’s is one of the most common problems amongst those that are experiencing homelessness, they often get their wallets, ID’s, entire luggage or bag stolen so they always have to start over. Having their identities on the blockchain will mean they won’t have to start over each time as long as they have their master key they will always be able to have their ID’s with them wherever they go regardless if they lose their belongings or not.
 
 ### What existing solutions do we have?
 There are ID clinics across Canada that help homeless individuals re-apply to get their driver’s license, health card, and SIN cards back. They help clients individually fill out forms to get their ID’s back however the challenge is the bureaucracy and hoops they have to jump through to acquire it as well as the time it takes to wait for government to replace it. 
 The problem that always occurs after is individuals losing it due to circumstance and then having to start all over again in the obtaining process.
-Emerging pilots to provide identity services for the homeless are emerging notable with two examples. New York with the Fummi app distributed on Android phones  and recently a ploit in Holland[8]. Other solutions are proposed to different vulnerable groups with similar identity needs, like refugees with solutions like Taqanu[9].
 
-## Homeless does not means disconnected
+Emerging pilots to provide identity services for the homeless are emerging notable with two examples. New York with the Fummi app distributed on Android phones and recently a ploit in Holland[9]. Other solutions are proposed to different vulnerable groups with similar identity needs, like refugees with solutions like Taqanu[10].
 
-* homeless does not mean no access to a smartphone
-Based on [13], 95 percent of homeless surveyed owned a mobile phone, and it is increasingly important and served as a lifeline to them [13].
-* homeless does not mean you have no root of trust (Drivers Licence, Bank account)
+## Use Cases
 
-* homeless does not mean they are alone, or isolated (but it is easy for them to feel this way). Digital identification and verifiable credentials can be the fundamentals for them to build their social life and a verificable existence.
+1 - Mary, the social workers and case managers, working with homeless can provide in-person ID services and provide an 'on-boarding' for a reliable, portable ID, and the advent of a digital trust framework means the identity claims are immiately recognizable and useable across supporting agencies and services.
 
-## Why a reliable Identity is valuable to this community
+2 - Joe takes advantage of a bed at a shelter. The intake shelter worker is able to provide Joe with a digital ID, that gives Joe a portable 'service ID'. When Joe decides to stay at a different shelter, he can use his serviceID. When Joe registers for a course, he can use his serviceID. when Joe completes the training/course, now Joe has a linked claim to his serviceID.
 
-* Social workers and case managers in the community can learn who the people are based on a consitant and verifiable ID.
-* Making this identity claim 'portable' across the city/locality/region as people move about.
-* Services requiring identity exist for the homeless, including reserving overnight shelters, re-training / education programs, employment services
+3 - Todd who recently "moved" to the street for the first time and would like to enroll the Accelerator (a training program for people experience homelessness). Paper based certificate of completion is hard to handle and can be easily damaged or lost. He would like to keep track of it in a digital and secure way.
 
-## Why Decentralized Digital Identity
+4 - Jane, finally ready to leave the street and start a new life, however it has been difficult for her to receive financial services (e.g. a bank account). With the relationship she build with her repeat use of her digital ID issued by the homeless shelter she stayed for the last awhile, now she is able to open her own bank account.
 
-By its nature, the disposessed / homeless commnity is already decentralized. The value lies in empowering a member of this community to leverage an identity and community relationship when moving across regions, or being able to have an 'identity' when attempting to re-enter 'normal' society.
+## Conclusion
 
-The social workers and case managers working with homeless can provide in-person ID services and provide an 'on-boarding' for a reliable, portable ID, and the advent of a digital trust framework means the identity claims are immiately recognizable and useable across supporting agencies and services.
-
-Example use case: Joe takes advantage of a bed at a shelter. The intake shelter worker is able to provide Joe with a digital ID, that gives Joe a portable 'service ID'. When Joe decides to stay at a different shelter, he can use his serviceID. When Joe registers for a course, he can use his serviceID. when Joe completes the training/course, now Joe has a linked claim to his serviceID.
-
-The principles of the decentralized digital identity allow for privacy respecting exchanges as well - so Joe does not have to reveal that he stayed at any particular shelter, or can be tracked for the number of courses he registered for but did not complete.
+TBD
 
 ## Reference
 
@@ -101,25 +92,5 @@ The principles of the decentralized digital identity allow for privacy respectin
 
 [8] [Opening a bank account (2016)](https://www.cba.ca/opening-a-bank-account)
 
-[1] Timothy Ruff, [7 Myths of Self-Sovereign Identity](https://medium.com/evernym/7-myths-of-self-sovereign-identity-67aea7416b1), Medium
-
-
-
-[1] Blockchain and Identity in 2018 -- A Year of Promise and Pilots, OWI
-
-[2] Identity in a Digital World -- A new chapter in the social contract, World Economic Forum
-[3] Report on Youth Homeless 2018, http://homelesshub.ca/sites/default/files/Report_on_homeless_youth_WEB%202.pdf
-[4] Homelessness in Canada, https://en.wikipedia.org/wiki/Homelessness_in_Canada
-[5] Gaetz, S.; Barr, C.; Friesen, A.; Harris, B.; Hill, C.; Kovacs-Burns, K.; Pauly, B.; Pearce, B.; Turner, A.; Marsolais, A. (2012) Canadian Definition
-of Homelessness. Toronto: Canadian Observatory on Homelessness Press.
-[7] Stephen Gaetz, Erin Dej, Tim Richter, & Melanie Redman (2016): The State of Homelessness in Canada 2016.
- Toronto: Canadian Observatory on Homelessness Press.
-[8] https://arxiv.org/pdf/1806.01926.pdF
-[9] https://www.taqanu.com
-[10] The Path to Self-Sovereign Identity, http://www.lifewithalacrity.com/2016/04/the-path-to-self-soverereign-identity.html
-[11] New Brunswick Digital ID https://myid.gnb.ca/content/myid-monid/en/discover-myid.html
-[12] https://accan.org.au/our-work/937-homeless-mobile-use
-[13] Cellphones can provide lifeline to homeless people https://www.cbc.ca/news/canada/nova-scotia/social-media-indigenous-women-safety-facebook-1.4032899
-[14] Homelessness in Canada – Why it’s time to listen, KPMG
-[15] Fair, A., Gosse, B., Moore, H. & Robson, J., Social and Enterprise Development Innovations (SEDI), 2008
-[16] https://www.ibm.com/blogs/blockchain/2018/10/decentralized-identity-an-alternative-to-password-based-authentication/
+[9] [This New Blockchain Project Gives Homeless New Yorkers A Digital Identity, 2007](https://www.fastcompany.com/40500978/this-new-blockchain-project-gives-homeless-new-yorkers-a-digital-identity)
+[10] [Austin, Texas Using Blockchain Identity System to Help the Homeless (2018)](https://bitcoinist.com/austin-introduces-blockchain-id-management-system-to-help-homeless-population/)
