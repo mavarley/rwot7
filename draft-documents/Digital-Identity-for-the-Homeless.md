@@ -7,9 +7,9 @@ Matthew Wong
 
 ## Abstract
 
-This paper explores the possibilities and practicalities of leveraging a decentralized digital identity for helping at-risk, low-income, and individuals facing homelessness.
+This paper discuss how to make digital IDs more than just a digital file and become a tool to built trust on for the individual experiencing homelessness. Decentralized digital ID solution can help individuals experiencing homelessness to receive services in the city (Toronto) such as reserving an overnight shelters, tracking of certificates offered by free public organized re-training programs, and become finanically inclusive. With digital IDs, people facing homelesness can built credibility via repeat use the the same digital ID with varies services run by non-profit organizations in the city. Current digital ID solutions are mature enough to tackle this issue, however how to properly design and deploy this solution in a city wide scale without a centralized Vertifible Crendential (VC) Issuer or ID Provider (IDP) such as government is still challenging.
 
-Some points that will be covered:
+Some points that will be covered in this paper:
 * Homeless does not mean 'disconnected'.
 * Reliable identity is still essential for providing services to the homeless.
 * Homeless can build their own web of trust with decentralized identity [16].
@@ -20,8 +20,10 @@ Some points that will be covered:
 
 ## Background
 
-Some of the best estimates indicate that more than 235,000 Canadians experience homelessness in any given
-year, and about 35,000 Canadians are homeless on a given night[14]; among them, 6,000 of those are youth between 15 and 24[3]. According to Canadian Observatory of Homelessness[5],
+According to the World Bank[1], over a billion people cannot prove things about ourselves, leaving them unable to obtain desirable work or advanced education, open a bank account, hold title to property, or even travel. This is not limited to the unprivileged class in the developing countries but also people in developed world, such as Canada, who is experiencing homelessness. Some of the best estimates indicate that more than 235,000 Canadians experience homelessness in any given
+year, and about 35,000 Canadians are homeless on a given night[2]; among them, 6,000 of those are youth between 15 and 24[3]. 
+
+According to Canadian Observatory of Homelessness[4],
 
 > Homelessness describes the situation of an individual, family or community without stable, safe, permanent, appropriate
 housing, or the immediate prospect, means and ability of acquiring it. It is the result of systemic or societal barriers, a lack
@@ -29,11 +31,11 @@ of affordable and appropriate housing, the individual/household’s financial, m
 challenges, and/or racism and discrimination. Most people do not choose to be homeless, and the experience is generally
 negative, unpleasant, unhealthy, unsafe, stressful and distressing.
 
-Mass homelessness in Canada emerged in the 1980s, following a massive disinvestment in affordable housing, structural shifts in the economy and reduced spending on social supports. Since then stakeholders across the country have tried and tested solutions to address the issue. These responses, largely based on the provision of emergency services, have prevented meaningful progress. Fortunately, there are many signs that we are entering a new phase -- one that will lead to an end to homelessness in Canada[7].
+Mass homelessness in Canada emerged in the 1980s, following a massive disinvestment in affordable housing, structural shifts in the economy and reduced spending on social supports. Since then stakeholders across the country have tried and tested solutions to address the issue. These responses, largely based on the provision of emergency services, have prevented meaningful progress. Fortunately, there are many signs that we are entering a new phase -- one that will lead to an end to homelessness in Canada[5].
 
 Although this background is based on studies based on Canada, it provides a context for a global issue.  
 
-### Problem Statement
+## Problem Statement
 
 Modern services constantly require users to provide a verified, government identity. IDs are needed, not just to drive a car or enter a bar, but to register for school, open a bank account and access many government benefits. Individuals who do not have verification are locked out from vast expanses of the modern economy, i.e. financially excluded.
 
@@ -42,9 +44,6 @@ Financial inclusion is widely recognized as one of the most important engines of
 In Canada, to open an account, you must present two pieces of identification. Alternatively, you may present only one piece of identification if your identity is confirmed by a client in good standing with the bank or by an individual of good standing in the community where the bank is located. However, without a reliable identification, keeping track of reputation or crendentials, is difficult.
 
 Although homeless shelters do not requires any identification; however due to age / gender restriction of some shelters, staff sometimes ask people come to their facility to provide proves. Verifiable crendentials can be used to provide information as needed (e.g. age), but nothing more.
-
-### What are we aiming to do?
-The focus of this topic is how to apply existing decentralized digital ID solution to help individuals experiencing homelessness in the city (Toronto). E.g. how to reserve services such as overnight shelters with digital ID, keep track of certificate offered by free public organized re-training programs, and built credibility via repeat use the the same digital ID with varies services run by non-profit organizations in the city etc. The current digital ID solution is mature enough to tackle this issue, however how to properly design and deploy this solution in a city wide scale without major government backing is still challenging -- how to make a digital ID more than just a digital file and become a tool to built trust on for the individual experiencing homelessness. 
 
 ### Why Self-Sovereign Identity and Decentralize or Web of Trust?
 Decentralized / Web of Trust based digital identity is a necessity for the millions of people around the world without identification or documentation -- they are invisibile. These “lost citizens” have no access to social and financial service, and no clear identity in the society.
@@ -81,7 +80,25 @@ Example use case: Joe takes advantage of a bed at a shelter. The intake shelter 
 The principles of the decentralized digital identity allow for privacy respecting exchanges as well - so Joe does not have to reveal that he stayed at any particular shelter, or can be tracked for the number of courses he registered for but did not complete.
 
 ## Reference
+
+[1] Vyjayanti T. Desai, Anna Diofasi, and Jing Lu [The global identification challenge: Who are the 1 billion people without proof of identity?](https://blogs.worldbank.org/voices/global-identification-challenge-who-are-1-billion-people-without-proof-identity), World Bank Blog
+
+[2] [Homelessness in Canada – Why it’s time to listen](https://assets.kpmg.com/content/dam/kpmg/ca/pdf/2018/03/Homelessness.pdf), October 17, 2017, KPMG
+
+[3] [Report on Youth Homeless 2018](http://homelesshub.ca/sites/default/files/Report_on_homeless_youth_WEB%202.pdf), United Way, 2018
+
+[4] Gaetz, S.; Barr, C.; Friesen, A.; Harris, B.; Hill, C.; Kovacs-Burns, K.; Pauly, B.; Pearce, B.; Turner, A.; Marsolais, A. (2012) [Canadian Definition Of Homelessness](http://www.homelesshub.ca/sites/default/files/COHhomelessdefinition.pdf), 
+
+[5] Stephen Gaetz, Erin Dej, Tim Richter, & Melanie Redman (2016): [The State of Homelessness in Canada 2016.
+ Toronto: Canadian Observatory on Homelessness Press](http://homelesshub.ca/SOHC2016).
+
+
+[1] Timothy Ruff, [7 Myths of Self-Sovereign Identity](https://medium.com/evernym/7-myths-of-self-sovereign-identity-67aea7416b1), Medium
+
+
+
 [1] Blockchain and Identity in 2018 -- A Year of Promise and Pilots, OWI
+
 [2] Identity in a Digital World -- A new chapter in the social contract, World Economic Forum
 [3] Report on Youth Homeless 2018, http://homelesshub.ca/sites/default/files/Report_on_homeless_youth_WEB%202.pdf
 [4] Homelessness in Canada, https://en.wikipedia.org/wiki/Homelessness_in_Canada
