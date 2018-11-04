@@ -20,6 +20,8 @@ Some points that will be covered in this paper:
 
 ## Background
 
+Decentralized / Web of Trust based digital identity is a necessity for the billions of people around the world without identification or documentation -- they are invisibile. These “lost citizens” have no access to social and financial service, and no clear identity in the society. 
+
 According to the World Bank[1], over a billion people cannot prove things about ourselves, leaving them unable to obtain desirable work or advanced education, open a bank account, hold title to property, or even travel. This is not limited to the unprivileged class in the developing countries but also people in developed world, such as Canada, who is experiencing homelessness. Some of the best estimates indicate that more than 235,000 Canadians experience homelessness in any given
 year, and about 35,000 Canadians are homeless on a given night[2]; among them, 6,000 of those are youth between 15 and 24[3]. 
 
@@ -39,16 +41,17 @@ Although this background is based on studies based on Canada, it provides a cont
 
 Modern services constantly require users to provide a verified, government identity. IDs are needed, not just to drive a car or enter a bar, but to register for school, open a bank account and access many government benefits. Individuals who do not have verification are locked out from vast expanses of the modern economy, i.e. financially excluded.
 
-Financial inclusion is widely recognized as one of the most important engines of economic development. Its contributions to GDP, individual and social welfare, and business creation and expansion. Without a stable address access to mainstream financial services in Canada is difficult if not impossible. 
+Financial inclusion is widely recognized as one of the most important engines of economic development. Its contributions to GDP, individual and social welfare, and business creation and expansion. Without a stable address access to mainstream financial services in Canada is difficult if not impossible[6]. 
 
-In Canada, to open an account, you must present two pieces of identification. Alternatively, you may present only one piece of identification if your identity is confirmed by a client in good standing with the bank or by an individual of good standing in the community where the bank is located. However, without a reliable identification, keeping track of reputation or crendentials, is difficult.
+In Canada, to open an account, you must present two pieces of identification[7][8]. Alternatively, you may present only one piece of identification if your identity is confirmed by a client in good standing with the bank or by an individual of good standing in the community where the bank is located. However, without a reliable identification, keeping track of reputation or crendentials, is difficult.
 
 Although homeless shelters do not requires any identification; however due to age / gender restriction of some shelters, staff sometimes ask people come to their facility to provide proves. Verifiable crendentials can be used to provide information as needed (e.g. age), but nothing more.
 
-### Why Self-Sovereign Identity and Decentralize or Web of Trust?
-Decentralized / Web of Trust based digital identity is a necessity for the millions of people around the world without identification or documentation -- they are invisibile. These “lost citizens” have no access to social and financial service, and no clear identity in the society.
+The solution to this problem is to use decentralized diginal ID systems (as known as Self-Sovereign Identity -- SSI) designed to empower users to establish their own credibility via the Web of Trust. 
 
-Decentralized solution is needed to solve this problem for a few reasons, one; blockchain will decrease the chances of fraud and stolen identities being used hence improve trust. Second, for individuals that actually don’t have physical proof for their ID this elevates the need to register and request for physical identification which can take up months. Third, this can give people more proactive control over their data and make it more difficult for unauthorized users to exploit it. Lastly losing physical ID’s is one of the most common problems amongst those that are experiencing homelessness, they often get their wallets, ID’s, entire luggage or bag stolen so they always have to start over. Having their identities on the blockchain will mean they won’t have to start over each time as long as they have their master key they will always be able to have their ID’s with them wherever they go regardless if they lose their belongings or not.
+### Why Self-Sovereign Identity and Decentralize or Web of Trust?
+
+Self-Sovereign Identity is a perfect decentralized solution for the problem above for a few reasons, one; blockchain will decrease the chances of fraud and stolen identities being used hence improve trust. Second, for individuals that actually don’t have physical proof for their ID this elevates the need to register and request for physical identification which can take up months. Third, this can give people more proactive control over their data and make it more difficult for unauthorized users to exploit it. Lastly losing physical ID’s is one of the most common problems amongst those that are experiencing homelessness, they often get their wallets, ID’s, entire luggage or bag stolen so they always have to start over. Having their identities on the blockchain will mean they won’t have to start over each time as long as they have their master key they will always be able to have their ID’s with them wherever they go regardless if they lose their belongings or not.
 
 ### What existing solutions do we have?
 There are ID clinics across Canada that help homeless individuals re-apply to get their driver’s license, health card, and SIN cards back. They help clients individually fill out forms to get their ID’s back however the challenge is the bureaucracy and hoops they have to jump through to acquire it as well as the time it takes to wait for government to replace it. 
@@ -92,6 +95,11 @@ The principles of the decentralized digital identity allow for privacy respectin
 [5] Stephen Gaetz, Erin Dej, Tim Richter, & Melanie Redman (2016): [The State of Homelessness in Canada 2016.
  Toronto: Canadian Observatory on Homelessness Press](http://homelesshub.ca/SOHC2016).
 
+[6] SEDI (2008), [Finanical Inclusion for Homeless and Those at Risk](http://prospercanada.org/getattachment/431191e9-bc53-40ca-8f90-b18807009290/Financial-Inclusion-for-Homeless-Persons-and-Those.aspx)
+
+[7] [Financial Sector Review](https://www.fin.gc.ca/consultresp/pdf-ssge-sefc/ssge-sefc-49.pdf) (2016), item 6.
+
+[8] [Opening a bank account (2016)](https://www.cba.ca/opening-a-bank-account)
 
 [1] Timothy Ruff, [7 Myths of Self-Sovereign Identity](https://medium.com/evernym/7-myths-of-self-sovereign-identity-67aea7416b1), Medium
 
